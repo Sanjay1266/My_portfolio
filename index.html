@@ -1,156 +1,309 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Sanjay S - Computer Science student and AI/ML developer portfolio.">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Sanjay S - Computer Science student and AI/ML developer portfolio."
+    />
     <title>Sanjay S | AI/ML Developer Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="preloader" data-preloader aria-hidden="true"><span class="loader-ring"></span></div>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="preloader" data-preloader aria-hidden="true">
+      <span class="loader-ring"></span>
+    </div>
     <div class="scroll-progress" data-scroll-progress aria-hidden="true"></div>
 
     <header class="site-header">
-        <nav class="navbar container" aria-label="Main navigation">
-            <a class="brand" href="index.html">Sanjay<span>.S</span></a>
-            <ul class="nav-links" data-nav-links>
-                <li><a href="#about">About</a></li>
-                <li><a href="pages/resume.html">Resume</a></li>
-                <li><a href="pages/portfolio.html">Portfolio</a></li>
-                <li><a href="pages/blog.html">Blogs</a></li>
-                <li><a href="pages/contact.html">Contact</a></li>
-            </ul>
-            <div class="nav-actions">
-                <a class="icon-btn social-hide" href="https://github.com/Sanjay1266" target="_blank" rel="noreferrer" aria-label="GitHub">
-                    <i class="fa-brands fa-github"></i>
-                </a>
-                <a class="icon-btn social-hide" href="https://www.linkedin.com/in/sanjaysundaram1266/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
-                    <i class="fa-brands fa-linkedin-in"></i>
-                </a>
-                <button class="theme-toggle" data-theme-toggle aria-label="Toggle theme"><i class="fa-solid fa-moon"></i></button>
-                <button class="menu-btn" data-menu-btn aria-expanded="false" aria-label="Toggle menu"><i class="fa-solid fa-bars"></i></button>
-            </div>
-        </nav>
+      <nav class="navbar container" aria-label="Main navigation">
+        <a class="brand" href="index.html">Sanjay<span>.S</span></a>
+        <ul class="nav-links" data-nav-links>
+          <li><a href="#about">About</a></li>
+          <li><a href="pages/resume.html">Resume</a></li>
+          <li><a href="pages/portfolio.html">Portfolio</a></li>
+          <li><a href="pages/blog.html">Blogs</a></li>
+          <li><a href="pages/contact.html">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <a
+            class="icon-btn social-hide"
+            href="https://github.com/Sanjay1266"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="GitHub"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a
+            class="icon-btn social-hide"
+            href="https://www.linkedin.com/in/sanjaysundaram1266/"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="LinkedIn"
+          >
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <button
+            class="theme-toggle"
+            data-theme-toggle
+            aria-label="Toggle theme"
+          >
+            <i class="fa-solid fa-moon"></i>
+          </button>
+          <button
+            class="menu-btn"
+            data-menu-btn
+            aria-expanded="false"
+            aria-label="Toggle menu"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </nav>
     </header>
 
     <main class="main">
-        <section class="hero container" id="about">
-            <div class="hero-grid">
-                <div data-reveal>
-                    <p class="eyebrow">Hello, I am</p>
-                    <h1>Sanjay S</h1>
-                    <p class="typing-line"><span data-typing></span><span class="cursor">|</span></p>
-                    <p>
-                     Computer Science student specializing in AI/ML,Web Development, and Full Stack Development, focused on creating intelligent and scalable technology solutions which solves real-world problems and makes life easier.
-                    </p>
-                    <div class="btn-row">
-                        <a class="btn btn-primary"target="_blank" href="assets\resume\Sanjay's_Resume.pdf">Download Resume</a>
-                        <a class="btn btn-ghost" href="pages/portfolio.html">View Projects</a>
-                    </div>
-                    <div class="social-row">
-                        <a class="icon-btn" href="https://github.com/Sanjay1266" target="_blank" rel="noreferrer" aria-label="GitHub">
-                            <i class="fa-brands fa-github"></i>
-                        </a>
-                        <a class="icon-btn" href="https://www.linkedin.com/in/sanjaysundaram1266/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
-                            <i class="fa-brands fa-linkedin-in"></i>
-                        </a>
-                        <a class="icon-btn" href="sanjaysundaram50@gmail.com" aria-label="Email">
-                            <i class="fa-solid fa-envelope"></i>
-                        </a>
-                    </div>
-                    <div class="scroll-indicator" aria-hidden="true"></div>
-                </div>
-                <div class="profile-image-container" data-reveal>
-
-    <div class="profile-image-glow"></div>
-
-    <div class="profile-image-box">
-
-        <img src="assets/images/Profile_Pic.JPG" alt="Sanjay S">
-
-    </div>
-
-</div>
-            </div>
-        </section>
-
-        <section class="container" id="intro" data-reveal>
-            <h2 class="section-title">About Me</h2>
-            <p class="section-lead">
-                My interests include applied machine learning, Internet of Things, scalable backend systems, and modern frontend architecture.
-                I enjoy transforming research ideas into polished, real-world products with measurable impact.
+      <section class="hero container" id="about">
+        <div class="hero-grid">
+          <div data-reveal>
+            <p class="eyebrow">Hello, I am</p>
+            <h1>Sanjay S</h1>
+            <p class="typing-line">
+              <span data-typing></span><span class="cursor">|</span>
             </p>
-            <div class="grid skills-grid">
-                <article class="card">
-                    <h3>Programming</h3>
-                    <p class="meta">Python, JavaScript, TypeScript, C++</p>
-                    <div class="skill-bar"><div class="skill-fill" data-width="92%"></div></div>
-                </article>
-                <article class="card">
-                    <h3>AI / ML</h3>
-                    <p class="meta">PyTorch, TensorFlow, NLP, CV, MLOps</p>
-                    <div class="skill-bar"><div class="skill-fill" data-width="88%"></div></div>
-                </article>
-                <article class="card">
-                    <h3>Web Development</h3>
-                    <p class="meta">REST APIs, React, Node.js, SQL</p>
-                    <div class="skill-bar"><div class="skill-fill" data-width="90%"></div></div>
-                </article>
-                <article class="card">
-                    <h3>Tools & Tech</h3>
-                    <p class="meta">Git, Docker, Linux, Cloud, CI/CD</p>
-                    <div class="skill-bar"><div class="skill-fill" data-width="85%"></div></div>
-                </article>
+            <p>
+              Computer Science student specializing in AI/ML,Web Development,
+              and Full Stack Development, focused on creating intelligent and
+              scalable technology solutions which solves real-world problems and
+              makes life easier.
+            </p>
+            <div class="btn-row">
+              <a
+                class="btn btn-primary"
+                target="_blank"
+                href="assets\resume\Sanjay's_Resume.pdf"
+                >Download Resume</a
+              >
+              <a class="btn btn-ghost" href="pages/portfolio.html"
+                >View Projects</a
+              >
             </div>
-        </section>
+            <div class="social-row">
+              <a
+                class="icon-btn"
+                href="https://github.com/Sanjay1266"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="GitHub"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a
+                class="icon-btn"
+                href="https://www.linkedin.com/in/sanjaysundaram1266/"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="LinkedIn"
+              >
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a
+                class="icon-btn"
+                href="mailto:sanjaysundaram50@gmail.com"
+                aria-label="Email"
+              >
+                <i class="fa-solid fa-envelope"></i>
+              </a>
+            </div>
+            <div class="scroll-indicator" aria-hidden="true"></div>
+          </div>
+          <div class="profile-image-container" data-reveal>
+            <div class="profile-image-glow"></div>
 
-        <section class="container" id="experience" data-reveal>
-            <h2 class="section-title">Experience Summary</h2>
-            <div class="timeline">
-                <article class="timeline-item">
-                    <h3>AI Research Projects</h3>
-                    <p class="meta">2024 - Present</p>
-                    <p>Built and evaluated deep learning pipelines for classification and sequence prediction tasks.</p>
-                </article>
-                <article class="timeline-item">
-                    <h3>Full Stack Product Builds</h3>
-                    <p class="meta">2023 - Present</p>
-                    <p>Created high-performance web platforms with clean architecture and developer-focused UX.</p>
-                </article>
-                <article class="timeline-item">
-                    <h3>Career Direction</h3>
-                    <p class="meta">Current Focus</p>
-                    <p>AI engineering, intelligent systems, and software roles that combine applied research with product impact.</p>
-                </article>
+            <div class="profile-image-box">
+              <img src="assets/images/Profile_Pic.JPG" alt="Sanjay S" />
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
+
+      <section class="container" id="intro" data-reveal>
+        <h2 class="section-title">About Me</h2>
+        <p class="section-lead">
+          My interests include applied machine learning,Web
+          Development,Exploring new things, and modern frontend architecture. I
+          enjoy transforming research ideas into polished, real-world products
+          with measurable impact.
+        </p>
+        <div class="grid skills-grid">
+          <article class="card">
+            <h3><i class="fa-solid fa-code"></i> Programming Languages</h3>
+            <p class="meta">
+              <i class="fa-brands fa-python"></i> Python,
+              <i class="fa-brands fa-js"></i> JavaScript,
+              <i class="fa-brands fa-java"></i> Java,
+              <i class="fa-solid fa-c"></i> C,
+              <i class="fa-solid fa-code"></i> C++
+            </p>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="92%"></div>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3><i class="fa-solid fa-globe"></i> Web Development</h3>
+            <p class="meta">
+              <i class="fa-brands fa-html5"></i> HTML,
+              <i class="fa-brands fa-css3-alt"></i> CSS,
+              <i class="fa-brands fa-js"></i> JavaScript,
+              <i class="fa-brands fa-react"></i> React,
+              <i class="fa-solid fa-mobile-screen"></i> Responsive Web Design
+            </p>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="90%"></div>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3><i class="fa-solid fa-server"></i> Backend Development</h3>
+            <p class="meta">
+              <i class="fa-brands fa-node-js"></i> Node.js,
+              <i class="fa-solid fa-flask"></i> Flask,
+              <i class="fa-solid fa-fire"></i> Firebase,
+              <i class="fa-solid fa-database"></i> MongoDB
+            </p>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="87%"></div>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3><i class="fa-solid fa-brain"></i> AI / Machine Learning</h3>
+            <p class="meta">
+              <i class="fa-solid fa-robot"></i> PyTorch,
+              <i class="fa-solid fa-microchip"></i> Deep Learning,
+              <i class="fa-solid fa-eye"></i> Computer Vision,
+              <i class="fa-solid fa-image"></i> Image Classification
+            </p>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="88%"></div>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>
+              <i class="fa-solid fa-layer-group"></i> Libraries & Frameworks
+            </h3>
+            <p class="meta">
+              <i class="fa-solid fa-chart-line"></i> NumPy,
+              <i class="fa-solid fa-table"></i> Pandas,
+              <i class="fa-solid fa-camera"></i> OpenCV,
+              <i class="fa-solid fa-chart-column"></i> Matplotlib,
+              <i class="fa-brands fa-react"></i> React,
+              <i class="fa-solid fa-flask"></i> Flask
+            </p>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="85%"></div>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>
+              <i class="fa-solid fa-screwdriver-wrench"></i> Tools &
+              Technologies
+            </h3>
+            <p class="meta">
+              <i class="fa-brands fa-git-alt"></i> Git,
+              <i class="fa-brands fa-github"></i> GitHub,
+              <i class="fa-solid fa-code"></i> VS Code,
+              <i class="fa-brands fa-linux"></i> Linux,
+              <i class="fa-brands fa-docker"></i> Docker,
+              <i class="fa-solid fa-book"></i> Jupyter Notebook
+            </p>
+            <div class="skill-bar">
+              <div class="skill-fill" data-width="84%"></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="container" id="experience" data-reveal>
+        <h2 class="section-title">Experience Summary</h2>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <h3>Co-Head – Anokha Techfair & Exhibitions</h3>
+            <p class="meta">Management Experience</p>
+            <p>
+              Led organization and coordination of exhibitions during the
+              national-level Anokha Tech Fest. Managed volunteers, event
+              logistics, and participant coordination while ensuring smooth
+              execution of technical exhibition events.
+            </p>
+          </article>
+
+          <article class="timeline-item">
+            <h3>Innovation Ambassador</h3>
+            <p class="meta">Institute Student Council</p>
+            <p>
+              Contributed to student representation and organized institutional
+              initiatives and student activities. Promoted innovation,
+              entrepreneurship, and awareness of national innovation programs
+              among students.
+            </p>
+          </article>
+
+          <article class="timeline-item">
+            <h3>Technical Event Coordination & Leadership</h3>
+            <p class="meta">Volunteer & Leadership Activities</p>
+            <p>
+              Coordinated volunteer teams, managed logistics, and supported
+              large-scale technical events. Volunteered in national-level
+              competitions including Smart India Hackathon (SIH) and ICPC
+              Regionals, assisting in participant support and operational
+              management.
+            </p>
+          </article>
+        </div>
+      </section>
     </main>
 
     <footer class="site-footer">
-        <div class="container footer-grid">
-            <div>
-                <a class="brand" href="index.html">Sanjay<span>.</span></a>
-                <p class="meta">AI/ML Enthusiast & Full Stack Developer</p>
-            </div>
-            <div class="social-row">
-                <a href="pages/resume.html">Resume</a>
-                <a href="pages/portfolio.html">Projects</a>
-                <a href="pages/blog.html">Blogs</a>
-                <a href="pages/contact.html">Contact</a>
-            </div>
-            <p class="meta">Copyright &copy; <span data-year></span> Sanjay S</p>
+      <div class="container footer-grid">
+        <div>
+          <a class="brand" href="index.html">Sanjay<span>.S</span></a>
+          <p class="meta">AI/ML Enthusiast & Full Stack Developer</p>
         </div>
+        <div class="social-row">
+          <a href="pages/resume.html">Resume</a>
+          <a href="pages/portfolio.html">Projects</a>
+          <a href="pages/blog.html">Blogs</a>
+          <a href="pages/contact.html">Contact</a>
+        </div>
+        <p class="meta">Copyright &copy; <span data-year></span> Sanjay S</p>
+      </div>
     </footer>
 
     <button class="back-to-top" data-back-to-top aria-label="Back to top">
-        <i class="fa-solid fa-chevron-up"></i>
+      <i class="fa-solid fa-chevron-up"></i>
     </button>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
