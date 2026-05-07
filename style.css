@@ -317,6 +317,7 @@
 .research-card .meta {
   line-height: 1.6;
 }
+
 body[data-theme="dark"] {
   --bg: #060913;
   --bg-elev: rgba(16, 23, 40, 0.62);
