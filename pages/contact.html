@@ -1,88 +1,273 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Contact Sanjay S for AI/ML and software engineering opportunities.">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Contact Sanjay S for AI/ML and software engineering opportunities."
+    />
+
     <title>Contact | Sanjay S</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="stylesheet" href="../style.css">
-</head>
-<body>
-    <div class="preloader" data-preloader aria-hidden="true"><span class="loader-ring"></span></div>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+
+  <body>
+    <!-- Preloader -->
+    <div class="preloader" data-preloader aria-hidden="true">
+      <span class="loader-ring"></span>
+    </div>
+
+    <!-- Scroll Progress -->
     <div class="scroll-progress" data-scroll-progress></div>
+
+    <!-- Header -->
     <header class="site-header">
-        <nav class="navbar container">
-            <a class="brand" href="../index.html">Sanjay<span>.</span></a>
-            <ul class="nav-links" data-nav-links>
-                <li><a href="../index.html#about">About</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="blog.html">Blogs</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-            <div class="nav-actions">
-                <a class="icon-btn social-hide" href="https://github.com" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i></a>
-                <a class="icon-btn social-hide" href="https://linkedin.com" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
-                <button class="theme-toggle" data-theme-toggle aria-label="Toggle theme"><i class="fa-solid fa-moon"></i></button>
-                <button class="menu-btn" data-menu-btn aria-expanded="false" aria-label="Toggle menu"><i class="fa-solid fa-bars"></i></button>
-            </div>
-        </nav>
+      <nav class="navbar container">
+        <a class="brand" href="../index.html"> Sanjay<span>.S</span> </a>
+
+        <ul class="nav-links" data-nav-links>
+          <li>
+            <a href="../index.html#about">About</a>
+          </li>
+
+          <li>
+            <a href="resume.html">Resume</a>
+          </li>
+
+          <li>
+            <a href="portfolio.html">Portfolio</a>
+          </li>
+
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+
+        <div class="nav-actions">
+          <!-- GitHub -->
+          <a
+            class="icon-btn social-hide"
+            href="https://github.com/Sanjay1266"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+
+          <!-- LinkedIn -->
+          <a
+            class="icon-btn social-hide"
+            href="https://www.linkedin.com/in/sanjaysundaram1266/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+
+          <!-- Theme Toggle -->
+          <button
+            class="theme-toggle"
+            data-theme-toggle
+            aria-label="Toggle theme"
+          >
+            <i class="fa-solid fa-moon"></i>
+          </button>
+
+          <!-- Mobile Menu -->
+          <button
+            class="menu-btn"
+            data-menu-btn
+            aria-expanded="false"
+            aria-label="Toggle menu"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </nav>
     </header>
 
+    <!-- Main -->
     <main class="main container">
-        <section data-reveal>
-            <h1 class="section-title">Contact</h1>
-            <p class="section-lead">Let us collaborate on AI/ML, product engineering, and software innovation projects.</p>
-            <div class="grid contact-grid">
-                <article class="card"><h3>Location</h3><p>Bengaluru, India</p></article>
-                <article class="card"><h3>Email</h3><p><a href="mailto:sanjay@example.com">sanjay@example.com</a></p></article>
-                <article class="card"><h3>LinkedIn</h3><p><a href="https://linkedin.com" target="_blank" rel="noreferrer">linkedin.com/in/sanjays</a></p></article>
-            </div>
-        </section>
+      <!-- Contact Intro -->
+      <section data-reveal>
+        <h1 class="section-title">Contact</h1>
 
-        <section data-reveal>
-            <article class="card contact-form">
-                <h2>Send a Message</h2>
-                <form data-contact-form novalidate>
-                    <div class="grid">
-                        <div>
-                            <label for="name">Name</label>
-                            <input id="name" name="name" type="text" placeholder="Your name">
-                            <p class="error" data-error="name"></p>
-                        </div>
-                        <div>
-                            <label for="email">Email</label>
-                            <input id="email" name="email" type="email" placeholder="your@email.com">
-                            <p class="error" data-error="email"></p>
-                        </div>
-                        <div class="full">
-                            <label for="subject">Subject</label>
-                            <input id="subject" name="subject" type="text" placeholder="Project / Hiring / Collaboration">
-                            <p class="error" data-error="subject"></p>
-                        </div>
-                        <div class="full">
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" rows="6" placeholder="Tell me about your idea..."></textarea>
-                            <p class="error" data-error="message"></p>
-                        </div>
-                    </div>
-                    <button class="btn btn-primary" type="submit">Send Message</button>
-                </form>
-            </article>
-        </section>
+        <p class="section-lead">
+          Let us collaborate on AI/ML, Open Source, and software innovation
+          projects.
+        </p>
+
+        <div class="grid contact-grid">
+          <!-- GitHub -->
+          <article class="card">
+            <a
+              href="https://github.com/Sanjay1266"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <h3>GitHub</h3>
+
+              <p>Sanjay1266</p>
+            </a>
+          </article>
+
+          <!-- Email -->
+          <article class="card">
+            <a href="mailto:sanjaysundaram50@gmail.com">
+              <h3>Email</h3>
+
+              <p>sanjaysundaram50@gmail.com</p>
+            </a>
+          </article>
+
+          <!-- LinkedIn -->
+          <article class="card">
+            <a
+              href="https://www.linkedin.com/in/sanjaysundaram1266/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <h3>LinkedIn</h3>
+
+              <p>Sanjay S</p>
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <!-- Contact Form -->
+      <section data-reveal>
+        <article class="card contact-form">
+          <h2>Send a Message</h2>
+
+          <form
+            action="https://formsubmit.co/sanjaysundaram50@gmail.com"
+            method="POST"
+          >
+            <!-- Disable Captcha -->
+            <input type="hidden" name="_captcha" value="false" />
+
+            <!-- Email Subject -->
+            <input
+              type="hidden"
+              name="_subject"
+              value="New Portfolio Message!"
+            />
+
+            <!-- Redirect -->
+            <input
+              type="hidden"
+              name="_next"
+              value="https://sanjay1266.github.io/"
+            />
+
+            <div class="grid">
+              <!-- Name -->
+              <div>
+                <label for="name"> Name </label>
+
+                <input
+                  id="name"
+                  name="name"
+                  type="text"
+                  placeholder="Your name"
+                  required
+                />
+              </div>
+
+              <!-- Email -->
+              <div>
+                <label for="email"> Email </label>
+
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  placeholder="your@email.com"
+                  required
+                />
+              </div>
+
+              <!-- Subject -->
+              <div class="full">
+                <label for="subject"> Subject </label>
+
+                <input
+                  id="subject"
+                  name="subject"
+                  type="text"
+                  placeholder="Project / Hiring / Collaboration"
+                  required
+                />
+              </div>
+
+              <!-- Message -->
+              <div class="full">
+                <label for="message"> Message </label>
+
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="6"
+                  placeholder="Tell me about your idea..."
+                  required
+                ></textarea>
+              </div>
+            </div>
+
+            <!-- Submit -->
+            <button class="btn btn-primary" type="submit">Send Message</button>
+          </form>
+        </article>
+      </section>
     </main>
 
+    <!-- Footer -->
     <footer class="site-footer">
-        <div class="container footer-grid">
-            <p class="meta">Copyright &copy; <span data-year></span> Sanjay S</p>
-            <div class="social-row"><a href="../index.html">Home</a><a href="resume.html">Resume</a><a href="portfolio.html">Projects</a></div>
+      <div class="container footer-grid">
+        <p class="meta">
+          Copyright &copy;
+          <span data-year></span>
+          Sanjay S
+        </p>
+
+        <div class="social-row">
+          <a href="../index.html"> Home </a>
+
+          <a href="resume.html"> Resume </a>
+
+          <a href="portfolio.html"> Projects </a>
         </div>
+      </div>
     </footer>
-    <button class="back-to-top" data-back-to-top aria-label="Back to top"><i class="fa-solid fa-chevron-up"></i></button>
+
+    <!-- Back To Top -->
+    <button class="back-to-top" data-back-to-top aria-label="Back to top">
+      <i class="fa-solid fa-chevron-up"></i>
+    </button>
+
+    <!-- Script -->
     <script src="../script.js"></script>
-</body>
+  </body>
 </html>
