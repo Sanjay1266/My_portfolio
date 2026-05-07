@@ -1,83 +1,164 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Projects and case studies by Sanjay S.">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Projects and case studies by Sanjay S." />
     <title>Portfolio | Sanjay S</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <link rel="stylesheet" href="../style.css">
-</head>
-<body>
-    <div class="preloader" data-preloader aria-hidden="true"><span class="loader-ring"></span></div>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <div class="preloader" data-preloader aria-hidden="true">
+      <span class="loader-ring"></span>
+    </div>
     <div class="scroll-progress" data-scroll-progress></div>
     <header class="site-header">
-        <nav class="navbar container">
-            <a class="brand" href="../index.html">Sanjay<span>.</span></a>
-            <ul class="nav-links" data-nav-links>
-                <li><a href="../index.html#about">About</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="blog.html">Blogs</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-            <div class="nav-actions">
-                <a class="icon-btn social-hide" href="https://github.com" target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i></a>
-                <a class="icon-btn social-hide" href="https://linkedin.com" target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin-in"></i></a>
-                <button class="theme-toggle" data-theme-toggle aria-label="Toggle theme"><i class="fa-solid fa-moon"></i></button>
-                <button class="menu-btn" data-menu-btn aria-expanded="false" aria-label="Toggle menu"><i class="fa-solid fa-bars"></i></button>
-            </div>
-        </nav>
+      <nav class="navbar container">
+        <a class="brand" href="../index.html">Sanjay<span>.S</span></a>
+        <ul class="nav-links" data-nav-links>
+          <li><a href="../index.html#about">About</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="blog.html">Blogs</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <a
+            class="icon-btn social-hide"
+            href="https://github.com/Sanjay1266"
+            target="_blank"
+            rel="noreferrer"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            class="icon-btn social-hide"
+            href="https://www.linkedin.com/in/sanjaysundaram1266/"
+            target="_blank"
+            rel="noreferrer"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+          <button
+            class="theme-toggle"
+            data-theme-toggle
+            aria-label="Toggle theme"
+          >
+            <i class="fa-solid fa-moon"></i>
+          </button>
+          <button
+            class="menu-btn"
+            data-menu-btn
+            aria-expanded="false"
+            aria-label="Toggle menu"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </nav>
     </header>
 
     <main class="main container" data-projects>
-        <section data-reveal>
-            <h1 class="section-title">Project Portfolio</h1>
-            <p class="section-lead">Selected AI/ML, full stack, and tooling projects with modern engineering quality.</p>
-            <div class="control-row">
-                <input type="search" placeholder="Search projects..." data-search-project aria-label="Search projects">
-                <button class="chip active" data-filter="all">All</button>
-                <button class="chip" data-filter="ai">AI/ML</button>
-                <button class="chip" data-filter="web">Web</button>
-                <button class="chip" data-filter="tools">Tools</button>
+      <section data-reveal>
+        <h1 class="section-title">Project Portfolio</h1>
+        <p class="section-lead">
+          Selected AI/ML, full stack, Web Development and tooling projects which
+          makes life better.
+        </p>
+        <div class="control-row">
+          <input
+            type="search"
+            placeholder="Search projects..."
+            data-search-project
+            aria-label="Search projects"
+          />
+          <button class="chip active" data-filter="all">All</button>
+          <button class="chip" data-filter="ai">AI/ML</button>
+          <button class="chip" data-filter="web">Web</button>
+          <button class="chip" data-filter="tools">Tools</button>
+        </div>
+        <div class="grid projects-grid">
+          <article
+            class="card project-card"
+            data-category="web"
+            data-title="Agrify – Smart Agriculture Platform"
+            data-stack="HTML, CSS, JavaScript, Responsive Design"
+            data-long="Designed and developed Agrify, a modern agriculture-focused web platform aimed at supporting farmers through digital solutions such as agricultural product showcasing, farmer guidance, expert support, community interaction, and responsive UI/UX experiences. Built with a strong focus on accessibility, clean interface design, and responsive frontend development."
+          >
+            <!-- Project Image -->
+            <div class="project-image-container">
+              <img
+                src="../assets/Project_imgs/Agrify_img.png"
+                alt="Agrify Project Preview"
+                class="project-image"
+              />
             </div>
-            <div class="grid projects-grid">
-                <article class="card project-card" data-category="ai" data-title="Vision Defect Detection" data-stack="Python, PyTorch, OpenCV" data-long="Built an image pipeline for defect detection with augmentation and optimized inference serving.">
-                    <div class="project-image">Vision AI</div><h3>Vision Defect Detection</h3><p>Automated visual quality checks with robust model evaluation pipelines.</p><p class="meta">PyTorch • OpenCV • FastAPI</p>
-                    <div class="btn-row"><a class="btn btn-ghost" href="https://github.com" target="_blank" rel="noreferrer">GitHub</a><a class="btn btn-primary" href="#" data-project-detail>Details</a></div>
-                </article>
-                <article class="card project-card" data-category="web" data-title="Realtime Team Dashboard" data-stack="Node.js, WebSocket, SQL" data-long="Developed a real-time analytics dashboard with scalable API design and role-based data access.">
-                    <div class="project-image">Realtime Web</div><h3>Realtime Team Dashboard</h3><p>Collaborative metrics platform with fast updates and clean information architecture.</p><p class="meta">JavaScript • Node • PostgreSQL</p>
-                    <div class="btn-row"><a class="btn btn-ghost" href="https://github.com" target="_blank" rel="noreferrer">GitHub</a><a class="btn btn-primary" href="#" data-project-detail>Details</a></div>
-                </article>
-                <article class="card project-card" data-category="tools" data-title="MLOps Automation Kit" data-stack="Python, Docker, GitHub Actions" data-long="Created reusable scripts for training, evaluation, packaging, and CI-based model validation.">
-                    <div class="project-image">Dev Tooling</div><h3>MLOps Automation Kit</h3><p>Reduced model release friction by standardizing experiment and deployment workflows.</p><p class="meta">Docker • CI/CD • Experiment Tracking</p>
-                    <div class="btn-row"><a class="btn btn-ghost" href="https://github.com" target="_blank" rel="noreferrer">GitHub</a><a class="btn btn-primary" href="#" data-project-detail>Details</a></div>
-                </article>
+
+            <h3>Agrify – Smart Agriculture Platform</h3>
+
+            <p>
+              Modern agriculture-focused web platform designed to support
+              farmers through digital services, expert guidance, and responsive
+              UI/UX experiences.
+            </p>
+
+            <p class="meta">HTML • CSS • JavaScript • Responsive Web Design</p>
+
+            <div class="btn-row">
+              <a
+                class="btn btn-ghost"
+                href="https://github.com/Sanjay1266/Agrify"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub
+              </a>
+
+              <a
+                class="btn btn-primary"
+                href="https://sanjay1266.github.io/Agrify/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Live Demo
+              </a>
             </div>
-        </section>
+          </article>
+          
+        </div>
+      </section>
     </main>
 
     <div class="modal" data-modal aria-hidden="true">
-        <article class="modal-card">
-            <div class="btn-row" style="justify-content: space-between;">
-                <h2 style="margin: 0;">Project Details</h2>
-                <button class="chip" data-modal-close>Close</button>
-            </div>
-            <div data-modal-content></div>
-        </article>
+      <article class="modal-card">
+        <div class="btn-row" style="justify-content: space-between">
+          <h2 style="margin: 0">Project Details</h2>
+          <button class="chip" data-modal-close>Close</button>
+        </div>
+        <div data-modal-content></div>
+      </article>
     </div>
 
     <footer class="site-footer">
-        <div class="container footer-grid">
-            <p class="meta">Copyright &copy; <span data-year></span> Sanjay S</p>
-            <div class="social-row"><a href="../index.html">Home</a><a href="blog.html">Blogs</a><a href="contact.html">Contact</a></div>
+      <div class="container footer-grid">
+        <p class="meta">Copyright &copy; <span data-year></span> Sanjay S</p>
+        <div class="social-row">
+          <a href="../index.html">Home</a><a href="blog.html">Blogs</a
+          ><a href="contact.html">Contact</a>
         </div>
+      </div>
     </footer>
-    <button class="back-to-top" data-back-to-top aria-label="Back to top"><i class="fa-solid fa-chevron-up"></i></button>
+    <button class="back-to-top" data-back-to-top aria-label="Back to top">
+      <i class="fa-solid fa-chevron-up"></i>
+    </button>
     <script src="../script.js"></script>
-</body>
+  </body>
 </html>
