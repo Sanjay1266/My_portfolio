@@ -317,6 +317,89 @@
 .research-card .meta {
   line-height: 1.6;
 }
+/* ================= MODERN SKILLS GRID ================= */
+
+.modern-skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 1000px) {
+  .modern-skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 650px) {
+  .modern-skills-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ================= SKILL CARD ================= */
+
+.modern-skill-card {
+  padding: 24px;
+  transition: transform 0.3s ease;
+}
+
+.modern-skill-card:hover {
+  transform: translateY(-6px);
+}
+
+/* ================= TITLE ================= */
+
+.modern-skill-card h3 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* ================= SKILL ICONS ================= */
+
+.skills-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+/* ================= SKILL TAG ================= */
+
+.skills-icons span {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  padding: 10px 14px;
+
+  border-radius: 30px;
+
+  background: rgba(255, 255, 255, 0.06);
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  font-size: 14px;
+
+  transition: all 0.3s ease;
+}
+
+/* ================= HOVER EFFECT ================= */
+
+.skills-icons span:hover {
+  transform: translateY(-3px) scale(1.04);
+
+  background: rgba(255, 255, 255, 0.12);
+}
+
+/* ================= ICONS ================= */
+
+.skills-icons i {
+  font-size: 16px;
+}
 
 body[data-theme="dark"] {
   --bg: #060913;
